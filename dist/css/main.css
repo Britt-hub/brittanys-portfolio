@@ -39,19 +39,39 @@
     width: 50%;
     height: 100vh;
     overflow: hidden; }
-    .menu .menu-branding-nav {
-      display: flex;
-      flex-flow: column wrap;
-      align-items: center;
-      justify-content: center;
-      float: left;
-      width: 50%;
-      height: 100vh;
-      overflow: hidden; }
-    .menu .menu-branding-nav {
-      margin: 0;
-      padding: 0;
-      background: #373737; }
+  .menu .menu-nav .show {
+    position: fixed;
+    top: 100px;
+    right: 0px;
+    z-index: 100;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    overflow: hidden; }
+  .menu-nav {
+    margin: 0;
+    padding: 0;
+    background: #373737;
+    list-style: none;
+    translate: translate(0, 100%, 0);
+    transition: all 1.0s ease-out; }
+    .menu-nav.show {
+      transform: translate3d(0, 0, 0); }
+    .menu-nav-branding {
+      background: #444;
+      transition: all 1.0s ease-out; }
+      .menu-nav-branding.show {
+        translate: translate3d(0, 100, 0); }
+      .menu-nav-branding .portrait {
+        width: 250px;
+        height: 250px;
+        background: url("../img/portrait_two.JPG");
+        border-radius: 50%;
+        border: solid 3px #eece1a; }
 
 * {
   background-origin: border-box; }
