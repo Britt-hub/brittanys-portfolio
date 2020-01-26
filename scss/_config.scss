@@ -30,6 +30,16 @@ $background-opacity: 0.9;
         }
     }
 }
+// color text
+@function set-text-color($color) {
+    @if (lightness($color) > 40) {
+        @return black;
+    } @else {
+        @return white;
+    }
+}
+
+
 // Mobile view code 
 
 @mixin mediaSm {
