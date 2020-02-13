@@ -83,12 +83,12 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/portrait_two.JPG");
+  background: url("../img/portfolioBackground.JPG");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
 
-.portrait_two.JPG {
+.portfolioBackground.JPG {
   height: 250px;
   width: 250px;
   max-width: 300px;
