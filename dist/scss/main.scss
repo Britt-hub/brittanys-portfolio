@@ -173,17 +173,18 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($primary-color, 50);
+  // background: darken($primary-color, 50);
+  background: #aa21c9;
   color: #fff;
 }
 
 .btn-light {
   @extend .btn;
-  background: lighten($primary-color, 50);
-  color: #333;
+  // background: lighten($primary-color, 50);
+  background: #918bc0;
+  // color: #333;
 }
 
-//Prjoects... not contacting to the page {7}
 
 .projects {
   display: grid;
