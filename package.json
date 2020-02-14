@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Britt-hub/brittanys-portfolio#readme",
   "dependencies": {
+    "bootstrap": "^4.4.1",
     "node-sass": "^4.13.1"
   }
 }
