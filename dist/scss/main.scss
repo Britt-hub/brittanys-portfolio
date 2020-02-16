@@ -98,17 +98,6 @@ main {
     font-size: 1.5rem;
   }
 
-  // .job-1 {
-  //   grid-area: job1;
-  // }
-
-  // .job-2 {
-  //   grid-area: job2;
-  // }
-
-  // .job-3 {
-  //   grid-area: job3;
-  // }
 
   .job {
     background: lighten($primary-color, 5);
@@ -244,14 +233,29 @@ padding-left: 0;;
 
 .textLink {
 width: 50%;
-padding: 7px;
+padding: 90px;
 margin: auto;
 padding-left: 196px;
 }
 
+.text-secondary {
+  // border: 2px solid yellow;
+  padding-top: 5em;
+  border-style: 9px solid;
+}
 
 
 
+p {
+  font-family: initial;
+  font-size: 20px;
+  line-height: 1.7;
+  color: white;
+  margin: 0px; }
+
+  h3 {
+    margin: 0;
+    font-weight: 400; }
 
 @import 'mobile';
 
