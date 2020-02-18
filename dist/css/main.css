@@ -17,14 +17,14 @@
   transform: rotate(180deg); }
 
 .menu-btn.close .btn-line:nth-child(1) {
-  background: red;
+  background: #3e97e4
   transform: rotate(45deg) translate(5px, 5px); }
 
 .menu-btn.close .btn-line:nth-child(2) {
   opacity: 0; }
 
 .menu-btn.close .btn-line:nth-child(3) {
-  background: red;
+  background: #3e97e4;
   transform: rotate(-45deg) translate(7px, -6px); }
 
 .menu {
@@ -71,7 +71,7 @@
   height: 250px;
   background: url("../img/portfolioBackground.JPG");
   border-radius: 50%;
-  border: solid 3px #eece1a; }
+  border: solid 3px #3e97e4; }
 
 .portfolioBackground.JPG {
   height: 250px;
@@ -87,7 +87,7 @@
   transform: translate3d(0, 0, 0); }
 
 .menu .nav-item.current > a {
-  color: #eece1a; }
+  color: #3e97e4; }
 
 .menu .nav-link {
   display: inline-block;
@@ -7717,7 +7717,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/portfolioBackground.JPG);
+    background: url(../img/mainbackground.png);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -7756,7 +7756,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #3e97e4; }
 
 main {
   padding: 4rem;
@@ -7767,7 +7767,7 @@ main {
       padding: 0.4rem;
       transition: all 0.5s ease-out; }
       main .icons a:hover {
-        color: #eece1a; }
+        color: #3e97e4; }
   main#home {
     overflow: hidden; }
     main#home h1 {
@@ -7782,14 +7782,14 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #3e97e4 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #3e97e4 5px solid; }
 
 .projects {
   display: grid;
@@ -7801,7 +7801,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #3e97e4;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -7818,7 +7818,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #3e97e4;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -7829,7 +7829,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #3e97e4;
     color: #000; }
 
 .btn-dark {
@@ -7848,7 +7848,7 @@ main {
     border: 3px white solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #3e97e4;
       transition: all 0.5s ease-out; }
 
 #main-footer {
@@ -7865,14 +7865,27 @@ form {
   padding-left: 0; }
 
 .textLink {
-  width: 50%;
-  padding: 90px;
-  margin: auto;
-  padding-left: 196px; }
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out; }
 
 .text-secondary {
   padding-top: 5em;
   border-style: 9px solid; }
+
+.form-group {
+  margin-top: 50px;
+  transition: all 4s ease-in-out; }
+
+.form-control {
+  width: 680px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px; }
 
 p {
   font-family: initial;
@@ -7921,6 +7934,15 @@ h3 {
   background-color: #303030;
   color: white;
   transform: rotateY(180deg); }
+
+.body_sec {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 150, 0.5), rgba(0, 0, 50, 0.5)), url(mainbackground.png);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif; }
 
 @media screen and (min-width: 1171px) {
   .projects {
