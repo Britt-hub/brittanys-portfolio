@@ -2,7 +2,7 @@
 
 ## About
 This is the most up to date version to Brittany Loy's portfolio page. The website was built with HTML, CSS, SASS, Bootstrap, and JavaScript.
-[a link](https://britt-hub.github.io/brittanys-portfolio/)
+[Click here to access my portfolio](https://britt-hub.github.io/brittanys-portfolio/)
 
 ## Section
 
